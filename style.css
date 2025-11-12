@@ -1,24 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
- 
- header {
-  background-color: rgb(207, 141, 156);
-  color: rgb(226, 15, 191);
+
+header {
+  background-color: #f8b400;
+  color: white;
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 header h1 {
   text-align: center;
   font-size: 50px;
 }
 
-div h1 {
-  margin-top: 10px;
+h1 {  
+  margin-bottom: 20px;
 }
 
-h1{
-  margin-bottom: 20px;
+nav ul {
+  list-style: none;
+  text-align: center;
 }
 
 nav ul li {
