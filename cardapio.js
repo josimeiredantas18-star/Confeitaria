@@ -19,6 +19,7 @@ function criarItemCardapio() {
 
     //Adicionando os elementos na div Mãe
     const divC = document.getElementById('cardapio')
+
     divItemCardapio.appendChild(h3Titulo)
     divItemCardapio.appendChild(pDescricao)
     divItemCardapio.appendChild(img)
@@ -27,4 +28,8 @@ function criarItemCardapio() {
 }
 
 //executando a função
-criarItemCardapio('Bolo de Chocolate', 'Um clássico irresistível com camadas de chocolate', 'https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2020/05/bolo_chocolate_leite.jpg')
+criarItemCardapio(
+    'Bolo de Chocolate', 
+    'Um clássico irresistível com camadas de chocolate', 
+    'https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2020/05/bolo_chocolate_leite.jpg'
+)
