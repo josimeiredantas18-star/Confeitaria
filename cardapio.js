@@ -2,7 +2,7 @@
 // do HTML no javascript 
 //dinamicamicamente
 
-function criarItemCardapio() {
+function criarItemCardapio(titulo, descricao, foto) {
     const divItemCardapio = document.createElement('div')
     divItemCardapio.className = 'itemCardapio'
 
